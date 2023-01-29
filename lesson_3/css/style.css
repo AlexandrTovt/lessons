@@ -1,0 +1,50 @@
+@import url("reset.css");
+
+h1 {
+    color: blue;
+}
+
+div {
+    color: red;
+}
+
+a {
+    color: green;
+}
+
+.etimology {
+    color: blue;
+}
+
+#p-1 {
+    color: brown;
+}
+
+div.symbolics {
+    color: yellow;
+}
+
+.geography.text {
+    color: black;
+}
+
+.etimology,
+.symbolics {
+    color:blueviolet;
+}
+
+.etimology p {
+    color:bisque;
+}
+
+.symbolics * {
+    color: green;
+}
+
+.etimology > p {
+    color:chartreuse;
+}
+
+.geography ~ p {
+    color:aqua;
+}
