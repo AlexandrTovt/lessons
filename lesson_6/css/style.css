@@ -1,0 +1,57 @@
+@import url('reset.css');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #6c757d;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+[class*="__container"] {
+	max-width: 1270px; /* 1240 + 15 + 15 */
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.article {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.article__text-block {
+	max-width: 816px;
+	margin: 0 auto 80px;
+}
+
+.article__text-block p {
+    line-height: 1.78; /* 25/14 */
+    margin-bottom: 30px;
+}
+
+.article__title {
+	color: #212529;
+	font-size: 25px;
+	line-height: 1.6; /* 40/25 */
+	margin-bottom: 40px;
+	font-weight: 700;
+	max-width: 605px;
+}
+
+.article__image {
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+
+.images {
+    font-size: 0;
+    margin-bottom: 80px;
+}
+
+.image {
+    max-width: 100%;
+}
+
+.image_1 {
+    margin-right: 30px;
+}
