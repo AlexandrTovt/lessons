@@ -1,0 +1,156 @@
+@import url('reset.css');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.25;
+}
+
+[class*="__container"] {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+[class*="__title"] {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.header {
+    padding: 30px 0;
+    background-color: aliceblue;
+    text-transform: uppercase;
+}
+
+.icons {
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+
+.icons__title,
+.icons__text-box,
+.design__title,
+.design__text-box,
+.content__title,
+.content__text-box {
+    margin-bottom: 30px;
+}
+
+.icons__text,
+.design__text,
+.content__text {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    outline: 5px solid red;
+}
+
+.icons__list,
+.design__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.icons__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    min-height: 100px;
+    margin: 0 20px 20px 0;
+    padding: 20px;
+    border-radius: 20px;
+    outline: 3px solid black;
+    cursor: pointer;
+}
+
+.icons__list li:nth-child(3n + 3),
+.design__list li:nth-child(3n + 3) {
+    margin-right: 0;
+}
+
+.icons__list li:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+}
+
+.icons__list li {
+    background-color: rgba(10, 126, 228, 0.6);
+    transition: all 0.3s ease;
+}
+
+.design__list li {
+    transition: all 0.3s ease;
+}
+
+.icons__list li:hover,
+.design__list li:hover {
+    transform: scale(1.2);
+}
+
+.design {
+    margin-bottom: 20px;
+}
+
+.design__image {
+    width: 400px;
+    min-height: 300px;
+    margin: 0 20px 20px 0;
+    padding: 20px;
+    border-radius: 20px;
+    outline: 3px solid blue;
+    cursor: pointer;
+}
+
+.decor-1 {
+    background: url("../img/decor/dotted_shape.svg") 5% no-repeat, url("../img/decor/dotted_shape_02.svg") center no-repeat, url("../img/decor/ellipse.svg") 85% no-repeat, rgba(0, 0, 255, 0.178);
+}   
+
+.decor-2 {
+    background: url("../img/decor/ellipse_2717.svg") left no-repeat, url("../img/decor/ellipse_2718.svg") right no-repeat black;
+}
+
+.decor-3 {
+    background: url("../img/decor/oval_02.svg") 10% no-repeat, url("../img/decor/oval_03.svg") 40% no-repeat, url("../img/decor/oval.svg") 60% no-repeat, url("../img/decor/oval_04.svg") 90% no-repeat;
+}   
+
+.decor-4 {
+    background: url("../img/decor/rectangle_01.svg") 25% no-repeat, url("../img/decor/rectangle_02.svg") 75% no-repeat;
+}
+
+.decor-5 {
+    background: url("../img/decor/vector_14.svg") center no-repeat black;
+}
+
+.decor-6 {
+    background: url("../img/decor/vector_15.svg") center no-repeat black;
+}
+
+.content {
+    padding: 20px 0;
+}
+
+
+[class*="__image-box"] {
+    font-size: 0;
+    margin-bottom: 20px;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.content__image-box img {
+    width: 1240px;
+}
+
+[class*="__image-box"] img:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
