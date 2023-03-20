@@ -1,0 +1,108 @@
+@import url('reset.css');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2.08;
+    color: #495057;
+}
+
+[class*="__container"] {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/* ======================================================================================================================================================== */
+
+.categories {
+    padding: 100px 0;
+}
+
+.top-categories {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.top-categories__columns {
+    display: flex;
+    column-gap: 20px;
+}
+.top-categories__column_grey {
+    color: rgba(73, 80, 87, 0.5);
+}
+
+/* ======================================================================================================================================================== */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 45px;
+    margin-bottom: 60px;
+}
+.item-cards {
+    display: flex;
+    flex-direction: column;
+    max-width: 393px;
+}
+.image {
+    position: relative;
+    margin-bottom: 30px;
+}
+.image__descr {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background: rgba(33, 37, 41, 0.3);
+    border-radius: 3px;
+    padding: 3px 12px;
+    color: #F8F9FA;
+}
+.item-cards__date {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.item-cards__title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #212529;
+    margin-bottom: 15px;
+}
+.item-cards__descr {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.item-cards__divider {
+    border: 1px solid #E5E5E5;
+    margin-bottom: 15px;
+}
+.item-cards__author {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+}
+/* ======================================================================================================================================================== */
+.categories__bottom {
+    text-align: center;
+}
+.categories__button {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 25px;
+    color: #F8F9FA;
+    background: #212529;
+    border-radius: 3px;
+    padding: 8px 50px;
+}
